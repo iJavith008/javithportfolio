@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#services" style="--i:4">Services</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>J. Abdul Samed Javith</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a web designer with over 3 years of experience.
+                <br>Expertise in website design, frontend development, and more.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/share/1A33cCiSZS" style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.instagram.com/i_abdull.x?igsh=MWtvNzRweTdrZnk5bw==" style="--i:8"><i class='bx bxl-instagram'></i></a>
+                <a href="https://x.com/i_javith_?t=9oA-rEXZZV8nKVIp-m31QA&s=09" style="--i:9"><i class='bx bx-x'></i></a>
+                <a href="https://www.linkedin.com/in/abdul-samed-javith-j-334472369?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="--i:10"><i class='bx bxl-linkedin'></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+        <span class="home-imghover"></span>
+    </section>
+    
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="/javiith.jpg" alt="Profile Image">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full Stack Developer</h4>
+            <p>I am a full-stack developer passionate about building innovative and user-friendly web applications. I specialize in front-end technologies like React and JavaScript, and back-end tools like Node.js and Python. I love solving real-world problems through technology.</p>
+            <a href="#skills" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class='bx bx-code' style='color:#00eeff'></i>
+                    <h2>JavaScript</h2>
+                    <p>I build dynamic, interactive interfaces using modern JavaScript frameworks and tools.</p>
+                    <a href="#" class="read">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bx-data' style='color:#00eeff'></i>
+                    <h2>Oracle Database</h2>
+                    <p>Proficient in Oracle DB with experience in data management, PL/SQL, and performance tuning.</p>
+                    <a href="#" class="read">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-html5' style='color:#00eeff'></i>
+                    <h2>HTML/CSS</h2>
+                    <p>Build beautiful and responsive websites using clean, semantic HTML5 and CSS3 code.</p>
+                    <a href="#" class="read">Learn more</a>
+                </div>
+                <div>
+                    <i class='bx bxl-python' style='color:#00eeff'></i>
+                    <h2>ProPython</h2>
+                    <p>As a seasoned Python developer, I have leveraged the language's versatility across multiple domains, including web development, data science, automation, and API design. My expertise spans from writing clean, scalable code to architecting complex backend systems..</p>
+                    <a href="#" class="read">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h1 class="sub-title">My <span>Skills</span></h1>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>HTML</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>CSS</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                    <span>70%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                    <span>60%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>Oracle Database</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                    <span>80%</span>
+                </div>
+                <div class="skill-card">
+                    <h3>Pro Python</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 60%;"></div></div>
+                    <span>60%</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p>I'm seeking opportunities as a frontend developer. Let's connect!</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Email</h4>
+                    <p>abdulsamedjavith@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <h4>GitHub</h4>
+                    <p>iJavith008</p>
+                </div>
+                <div class="contact-item">
+                    <h4>LinkedIn</h4>
+                    <p>ABDUL SAMED JAVITH</p> 
+                </div>
+            </div>
+            <a href="mailto:abdulsamedjavith@gmail.com" class="btn">Send Message</a>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
